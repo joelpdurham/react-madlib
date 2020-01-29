@@ -1,0 +1,16 @@
+.header {
+  h1 {
+    font-family: fantasy;
+    font-weight: bolder;
+    color: blue;
+  }
+
+  h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornflowerblue;
+  }
+}
+
+.footer {
+  color: purple;
+}

@@ -1,0 +1,11 @@
+.form {
+
+  input {
+    color: red
+  }
+
+  button {
+    background-color: black;
+    color: white;
+  }
+}
