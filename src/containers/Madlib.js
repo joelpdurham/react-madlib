@@ -13,10 +13,11 @@ export default class Madlib extends Component{
 
   handleSubmit = event => {
     event.preventDefault();
+    const wordsArray = [];
     for(let i = 0; i < event.target.length; i++) {
-      this.state.wordsArray.push(event.target[i].value);
+      wordsArray.push(event.target[i].value);
     }
-    this.setState(state => ({ ...state, wordsArray: state.wordsArray }));
+    this.setState(state => ({ ...state, wordsArray: wordsArray }));
     this.toggleResult();
   }
 
